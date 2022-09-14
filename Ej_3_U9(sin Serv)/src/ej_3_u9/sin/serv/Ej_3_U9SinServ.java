@@ -28,7 +28,7 @@ public class Ej_3_U9SinServ {
    
       List<Electrodomesticos> elec = new ArrayList();
       
-        Electrodomesticos e1= new Lavadora (35, 1000, 10, "blanco", "F");
+        Electrodomesticos e1= new Lavadora (35, 1000, 10, "blanco", "j");
         Electrodomesticos e2= new Televisor(35, true, 1000, 50, "negro", "A");
         Electrodomesticos e3= new Televisor(20, false, 1000, 10, "azul", "C");
         Electrodomesticos e4= new Lavadora(25, 1000, 40, "azul", "A");
@@ -36,6 +36,7 @@ public class Ej_3_U9SinServ {
         elec.add(e2);
         elec.add(e3);
         elec.add(e4);
+      //  System.out.println(e1.getConsumo());
         for (Electrodomesticos aux : elec) {
             aux.precioFinal();
         }
