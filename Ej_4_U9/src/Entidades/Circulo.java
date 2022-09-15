@@ -10,6 +10,7 @@ import Interfaz.CalculosFormas;
  */
 public class Circulo implements CalculosFormas {
     private float radio;
+   //Static:  private static int a=4;
 
     public Circulo() {
     }
@@ -25,7 +26,8 @@ public class Circulo implements CalculosFormas {
     public void setRadio(float radio) {
         this.radio = radio;
     }
-
+    
+    
     @Override
     public void area(float PI) {
         System.out.println("ÁREA DEL CÍRCULO: "+(PI*(radio*radio)) );
@@ -36,9 +38,7 @@ public class Circulo implements CalculosFormas {
         System.out.println("PERÍMETRO DEL CÍRCULO: "+(PI*(radio+radio)) );
     }
 
-  
-
-    
-    
     
 }
+
+

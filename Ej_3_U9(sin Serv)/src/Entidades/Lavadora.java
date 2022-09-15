@@ -34,6 +34,7 @@ public class Lavadora extends Electrodomesticos{
         super.crearElectrodomestico();
         System.out.print("Ingrese la capacidad de carga en kg: ");
         carga=leer.nextInt();
+        
     }
 
     @Override

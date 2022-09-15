@@ -18,6 +18,7 @@ public class Ej_2_U9SinServ {
       Lavadora l1=new Lavadora();
       l1.crearLavadora();
       l1.precioFinal();
+      
         System.out.println("--------------------");
       Televisor t1=new Televisor();
       t1.crearTelevisor();

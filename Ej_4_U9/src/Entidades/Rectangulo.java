@@ -46,10 +46,7 @@ public class Rectangulo implements CalculosFormas{
         System.out.println("PERÍMETRO DEL RECTÁNGULO: "+((base+altura)*2));
     }
     
-
-   
-    
-    
     
 
 }
+  
